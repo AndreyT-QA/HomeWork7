@@ -18,14 +18,14 @@ while [[ $# -gt 0 ]]; do
 	 ;;
 	--browser)
 	if [ -n "$2" ]; then
-         browser="$2"
-         shift
+	 browser="$2"
+	 shift
 	 shift
    else
-         echo "Error: --browser requires an argument"
-         exit 1
-        fi
-         ;;
+	 echo "Error: --browser requires an argument"
+	 exit 1
+	fi
+	  ;;
 	--version)
 	if [ -n "$2" ]; then
 	 version="$2"
